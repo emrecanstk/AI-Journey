@@ -1,0 +1,5 @@
+{
+  "venvPath": "experiments/embedding-similarity",
+  "venv": ".venv",
+  "pythonVersion": "3.14"
+}
