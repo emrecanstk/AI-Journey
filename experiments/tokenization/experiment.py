@@ -1,4 +1,4 @@
-from transformers import AutoTokenizer
+from image.pngtransformers import AutoTokenizer
 
 tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
 
