@@ -1,0 +1,27 @@
+---
+description: How to teach and run labs in this repo
+alwaysApply: true
+---
+
+# Teaching and labs
+
+## Teaching
+
+- Walk steps in order. After each block: explain to the user, then write `days/NN.md`.
+- Problem first, formula later. Do not force memorizing activations, Q/K/V names, or the attention formula.
+- Lock distinctions: **backprop computes gradients**; **gradient descent updates weights**. **Training learns**; **inference does not**.
+- LLM job: next-token distribution, not “understood the sentence and wrote an answer”.
+- Word ≠ token. Attention alone ≠ Transformer.
+
+## Labs
+
+- Put code under `experiments/<name>/`. Prefer the existing venv:
+  `experiments/embedding-similarity/.venv`
+- Never name a file `tokenize.py` (shadows the stdlib). Use `experiment.py`.
+- Run the script. Journal **real** numbers. If a slide’s example probs differ from softmax, say so.
+- Interpreter / Pylance: workspace points at that `.venv` (`pyrightconfig.json`, `.vscode/settings.json`).
+
+## Learning philosophy (also in README)
+
+For each concept: problem, why invented, high-level how, minimal build, real use, limits, next.
+Another developer should be able to reproduce the path.

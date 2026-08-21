@@ -1,0 +1,29 @@
+---
+description: AI Journey core — public learning repo, how every session must work
+alwaysApply: true
+---
+
+# AI Journey — core
+
+This is a **public AI engineering learning journey**, not a tutorial dump. Target: 15 Sep 2026.
+
+## Every session
+
+1. Read `README.md`, this rule set, and the latest `days/NN.md`.
+2. Follow the course images: create files, **run** experiments, journal, then explain.
+3. Do not skip the journal. Do not invent lab numbers.
+4. Do not commit unless the user asks.
+5. Do not restructure `00-foundations/` … `10-research/` yet. Later each gets `README.md`, `experiments/`, `notes/`.
+
+## Daily log standard
+
+For each concept, as much as possible:
+
+CONCEPT → WHY → MINI EXPERIMENT → RESULT → WHAT I LEARNED → WHAT I DON'T KNOW → NEXT
+
+Day close: a dated note like `notes/2026-08-21.md` (Goal, Learned, AI Connection, Experiments, Key realization, Questions, Confidence /10).
+
+## Time
+
+Cap 3 hours/day: ~30% learn, ~40% practice, ~20% connect, ~10% public docs.
+If 1 hour: 20 min explain, 25 min one mini lab, 10 min connections, 5 min GitHub notes.

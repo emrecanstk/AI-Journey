@@ -1,0 +1,31 @@
+---
+description: Markdown, days, notes — bilingual files and naming
+alwaysApply: true
+---
+
+# Markdown and logs
+
+## Hard rule — every `.md` file
+
+Every markdown file has **both** `## [EN]` and `## [TUR]`.
+Keep concept **headings in English**. Explanations follow the section language.
+
+## Where things go
+
+- `days/00.md`, `days/01.md`, … — what we did **that day** and why (both languages).
+- `notes/` — concepts, glossary, recall, dated day-close notes.
+- Notes names: `00-concept-map.md` style **or** `2026-08-21.md` for a day’s close.
+- `experiments/<lab>/` — runnable mini labs + lab README (also EN/TUR).
+- Do **not** put Day N work into an older `days/M.md`.
+
+## Current day files (as of 21 Aug 2026)
+
+- `days/00.md` — 19 Aug foundations
+- `days/01.md` — 20 Aug neuron, token, attention, transformer, next-token
+- `days/02.md` — 21 Aug math map
+- Latest close: `notes/2026-08-21.md`
+
+## Style
+
+No Wikipedia. Short cards: definition, why, example, related.
+Math this week is **bird’s-eye**: place terms in the system, do not derive everything.
