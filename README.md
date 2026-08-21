@@ -1,8 +1,8 @@
 # AI Journey
 
-![Status: 22 Aug 2026 — 14% calendar, you are here 01-mathematics](docs/status.svg)
+![Status: 22 Aug 2026 — 14% calendar, you are here 01-mathematics](docs/status.png)
 
-**Update this graphic at every day close.** Source: `docs/status.svg`
+**Update this graphic at every day close.** Run `python docs/render_status.py` (writes `docs/status.png`). Markdown preview does not show SVG.
 
 | | |
 | --- | --- |
