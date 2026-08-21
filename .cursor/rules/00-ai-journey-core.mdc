@@ -9,11 +9,12 @@ This is a **public AI engineering learning journey**, not a tutorial dump. Targe
 
 ## Every session
 
-1. Read `README.md`, this rule set, and the latest `days/NN.md`.
+1. Read `README.md` (status dashboard at the top), this rule set, and the latest `days/NN.md`.
 2. Follow the course images: create files, **run** experiments, journal, then explain.
 3. Do not skip the journal. Do not invent lab numbers.
 4. Do not commit unless the user asks.
 5. Do not restructure `00-foundations/` … `10-research/` yet. Later each gets `README.md`, `experiments/`, `notes/`.
+6. At every day close, **update the README status dashboard** (date, you-are-here, bars, mermaid).
 
 ## Daily log standard
 

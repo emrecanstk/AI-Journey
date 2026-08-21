@@ -1,6 +1,8 @@
 # Agent instructions
 
-New chat: read this file, then `.cursor/rules/`, `README.md`, and the **latest** `days/*.md`.
+New chat: read this file, then `.cursor/rules/`, `README.md` (status dashboard at top), and the **latest** `days/*.md`.
+
+At every day close, update the README dashboard: date, you-are-here, module colors, skill bars.
 
 Continue the same workflow the user is happy with. Do not reset conventions.
 
