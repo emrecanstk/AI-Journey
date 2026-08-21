@@ -1,119 +1,15 @@
 # AI Journey
 
-> Snapshot **22 Aug 2026** · Calendar **4 / 28 days** · Target **15 Sep 2026**  
-> You are here: **`01-mathematics`** (bird’s-eye done) → next: deepen math **or** continue the Transformer path  
-> Goal: understand, build, evaluate, and deploy modern AI systems
+![Status: 22 Aug 2026 — 14% calendar, you are here 01-mathematics](docs/status.svg)
 
-```
-START 19 Aug                         NOW                         TARGET 15 Sep
-│████                                  │░░░░░░░░░░░░░░░░░░░░░░░░░░░░│
-0%                                   14%                           100%
-     foundations + math map
-     neuron · token · attention · next-token
-```
+**Update this graphic at every day close.** Source: `docs/status.svg`
 
-```mermaid
-%%{init: {"theme": "dark", "themeVariables": {"primaryColor": "#1f6feb", "primaryTextColor": "#fff", "lineColor": "#8b949e", "secondaryColor": "#238636", "tertiaryColor": "#161b22"}}}%%
-flowchart LR
-  S["19 Aug<br/>START"] --> A["20 Aug<br/>Token → Transformer<br/>→ Next token"]
-  A --> B["21 Aug<br/>Math map"]
-  B --> H["22 Aug<br/>YOU ARE HERE"]
-  H -.-> T["15 Sep<br/>TARGET"]
-
-  style S fill:#238636,stroke:#2ea043,color:#fff
-  style A fill:#238636,stroke:#2ea043,color:#fff
-  style B fill:#238636,stroke:#2ea043,color:#fff
-  style H fill:#1f6feb,stroke:#58a6ff,color:#fff
-  style T fill:#21262d,stroke:#8b949e,color:#c9d1d9
-```
-
-```mermaid
-%%{init: {"theme": "dark"}}%%
-flowchart TB
-  subgraph PLAN["PLAN — 11 modules"]
-    direction TB
-    M00["00 foundations"]
-    M01["01 mathematics"]
-    M02["02 neural-networks"]
-    M03["03 transformers"]
-    M04["04 llms"]
-    M05["05 rag"]
-    M06["06 agents"]
-    M07["07 memory"]
-    M08["08 evaluation"]
-    M09["09 production"]
-    M10["10 research"]
-    M00 --> M01 --> M02 --> M03 --> M04 --> M05 --> M06 --> M07 --> M08 --> M09 --> M10
-  end
-
-  style M00 fill:#238636,stroke:#2ea043,color:#fff
-  style M01 fill:#1f6feb,stroke:#58a6ff,color:#fff
-  style M02 fill:#9e6a03,stroke:#d29922,color:#fff
-  style M03 fill:#9e6a03,stroke:#d29922,color:#fff
-  style M04 fill:#9e6a03,stroke:#d29922,color:#fff
-  style M05 fill:#9e6a03,stroke:#d29922,color:#fff
-  style M06 fill:#21262d,stroke:#8b949e,color:#8b949e
-  style M07 fill:#21262d,stroke:#8b949e,color:#8b949e
-  style M08 fill:#21262d,stroke:#8b949e,color:#8b949e
-  style M09 fill:#21262d,stroke:#8b949e,color:#8b949e
-  style M10 fill:#21262d,stroke:#8b949e,color:#8b949e
-```
-
-**Legend:** green = intro done · blue = **you are here** · amber = started (lab / intuition) · grey = not started
-
-```mermaid
-%%{init: {"theme": "dark"}}%%
-flowchart LR
-  subgraph DONE["Built with my own hands"]
-    T[Token] --> E[Embedding]
-    E --> A[Attention]
-    A --> TR[Transformer block]
-    TR --> L[Logits]
-    L --> P[Probability]
-    P --> N[Next token]
-  end
-  subgraph MATH["Math under it — bird's-eye"]
-    V[Vector / Matrix / Dot]
-    S[Softmax]
-    G[Loss / Gradient / Descent]
-  end
-  DONE --- MATH
-
-  style T fill:#238636,stroke:#2ea043,color:#fff
-  style E fill:#238636,stroke:#2ea043,color:#fff
-  style A fill:#238636,stroke:#2ea043,color:#fff
-  style TR fill:#238636,stroke:#2ea043,color:#fff
-  style L fill:#238636,stroke:#2ea043,color:#fff
-  style P fill:#238636,stroke:#2ea043,color:#fff
-  style N fill:#238636,stroke:#2ea043,color:#fff
-  style V fill:#1f6feb,stroke:#58a6ff,color:#fff
-  style S fill:#1f6feb,stroke:#58a6ff,color:#fff
-  style G fill:#1f6feb,stroke:#58a6ff,color:#fff
-```
-
-### Level now — 0 none · 1 heard it · 2 can explain · 3 technical
-
-Self-score 20 Aug was **20/45**. After 20–21 Aug labs, placement looks like this (not a new quiz):
-
-```
-TOKEN              ████████░░  2/3   lab: bert tokenizer
-EMBEDDING          ████████░░  2/3   lab: MiniLM + cosine
-ATTENTION          ████████░░  2/3   lab: 2x2 self-attention  (was 0)
-LLM NEXT-TOKEN     ████████░░  2/3   loop + temperature       (was 0)
-TRAINING vs INFER  ████████░░  2/3   locked the split         (was 1)
-VECTOR / DOT       ████████░░  2/3   bird's-eye + NumPy 32
-SOFTMAX            ████████░░  2/3   7.2 vs 10.0 sharpening
-LOSS / GD          ████████░░  2/3   toy descent to ~10
-BACKPROP           ████░░░░░░  1/3   idea only, no full net
-RAG                ████░░░░░░  1/3   why it works, no system
-VECTOR DB          ██████████  3/3   from 20 Aug check
-AGENTS             ████████░░  2/3   chatbot vs agent idea
-MEMORY / CONTEXT   ████████░░  2/3   distinction
-EVALUATION         ████░░░░░░  1/3
-LATENCY / PROD     ░░░░░░░░░░  0/3
-```
-
-**Still weak (honest):** full backprop, why softmax uses `exp`, real learning rates, latency/production, a real RAG pipeline.
+| | |
+| --- | --- |
+| Now | 22 Aug 2026 · day 4 of 28 · **01-mathematics** |
+| Goal | 15 Sep 2026 · understand, build, evaluate, deploy |
+| This week | token → embedding → attention → transformer → next-token + math map |
+| Still weak | full backprop · why softmax uses `exp` · real LR · latency · a real RAG pipeline |
 
 ---
 
